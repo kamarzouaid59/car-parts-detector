@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local env files
+.env
+
+# Generated detector outputs
+outputs/pipeline_crops/
+cropped_parts/
+output_full.jpg
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
